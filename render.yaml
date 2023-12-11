@@ -44,4 +44,4 @@ services:
     region: ohio
     plan: starter # we choose a plan with persistence to ensure tasks are not lost upon restart
     maxmemoryPolicy: noeviction # recommended policy for queues
-    ipAllowList: ['100.20.92.101', '44.225.181.72', '44.227.217.144'] # only allow internal connections
+    ipAllowList: [] # only allow internal connections
